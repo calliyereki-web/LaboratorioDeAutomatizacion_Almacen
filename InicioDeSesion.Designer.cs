@@ -33,6 +33,8 @@
             textBox1 = new TextBox();
             label2 = new Label();
             label3 = new Label();
+            textBox2 = new TextBox();
+            label1 = new Label();
             SuspendLayout();
             // 
             // Lab_Tag
@@ -74,17 +76,35 @@
             label3.AutoSize = true;
             label3.Location = new Point(32, 79);
             label3.Name = "label3";
-            label3.Size = new Size(67, 15);
+            label3.Size = new Size(64, 15);
             label3.TabIndex = 4;
-            label3.Text = "Contraseña";
+            label3.Text = "Expediente";
+            // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(105, 105);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(234, 23);
+            textBox2.TabIndex = 2;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(32, 108);
+            label1.Name = "label1";
+            label1.Size = new Size(67, 15);
+            label1.TabIndex = 4;
+            label1.Text = "Contraseña";
             // 
             // InicioDeSesion
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(443, 111);
+            ClientSize = new Size(443, 182);
+            Controls.Add(label1);
             Controls.Add(label3);
             Controls.Add(label2);
+            Controls.Add(textBox2);
             Controls.Add(textBox1);
             Controls.Add(comboBox1);
             Controls.Add(Lab_Tag);
@@ -101,5 +121,7 @@
         private TextBox textBox1;
         private Label label2;
         private Label label3;
+        private TextBox textBox2;
+        private Label label1;
     }
 }
