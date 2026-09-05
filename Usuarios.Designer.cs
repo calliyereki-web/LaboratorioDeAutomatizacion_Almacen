@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+<<<<<<< HEAD
             tabControl1 = new TabControl();
             tabPage1 = new TabPage();
             splitContainer1 = new SplitContainer();
@@ -99,5 +100,14 @@
         private TabPage tabPage1;
         private SplitContainer splitContainer1;
         private TabPage tabPage2;
+=======
+            this.components = new System.ComponentModel.Container();
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Text = "Usuarios";
+        }
+
+        #endregion
+>>>>>>> f421c8bca56daae0568e9c893ac7de67beb1d1df
     }
 }
