@@ -1,4 +1,4 @@
-﻿namespace LaboratorioDeAutomatizacion_Almacen
+namespace LaboratorioDeAutomatizacion_Almacen
 {
     partial class Usuarios
     {
